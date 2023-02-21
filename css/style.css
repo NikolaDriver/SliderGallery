@@ -129,3 +129,38 @@ body {
     left: 0;
     background-color: #fff;
 }
+/*-----------------------------*/
+.background {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    pointer-events: none;
+}
+.background__wrapper {
+    min-height: 100%;
+    display: flex;
+}
+.background__slide {
+    min-height: 100%;
+    flex-shrink: 0;
+    position: relative;
+}
+.background__image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.background__image img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: grayscale(1);
+}
