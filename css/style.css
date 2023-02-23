@@ -208,3 +208,12 @@ body {
         max-width: 48vw;
     }
 }
+/*-----------------------------*/
+
+.open-image {
+    cursor: pointer;
+}
+.text.active {
+    transform: translate(-50%, 100%);
+    opacity: 0;
+}
